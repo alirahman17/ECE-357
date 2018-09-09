@@ -1,0 +1,8 @@
+total 32
+-rwxr-xr-x 1 alirahman17 alirahman17 13648 Nov  5 20:09 a.out
+-rw-r--r-- 1 alirahman17 alirahman17    12 Sep 22 17:18 infile1.txt
+-rw-r--r-- 1 alirahman17 alirahman17  1200 Nov  5 20:01 ls.out
+-rw-r--r-- 1 alirahman17 alirahman17     0 Nov  5 20:09 lsoutput.out
+-rw-r--r-- 1 alirahman17 alirahman17     0 Nov  5 18:40 output.txt
+-rw-r--r-- 1 alirahman17 alirahman17  1764 Nov  5 12:48 probset3.c
+-rw-r--r-- 1 alirahman17 alirahman17  3143 Nov  5 20:09 shell.c

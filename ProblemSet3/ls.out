@@ -1,0 +1,21 @@
+total 28
+-rwxr-xr-x 1 alirahman17 alirahman17 13544 Nov  5 19:15 a.out
+-rw-r--r-- 1 alirahman17 alirahman17    12 Sep 22 17:18 infile1.txt
+-rw-r--r-- 1 alirahman17 alirahman17     0 Nov  5 19:11 ls.out
+-rw-r--r-- 1 alirahman17 alirahman17     0 Nov  5 18:40 output.txt
+-rw-r--r-- 1 alirahman17 alirahman17  1764 Nov  5 12:48 probset3.c
+-rw-r--r-- 1 alirahman17 alirahman17  2837 Nov  5 19:15 shell.c
+total 32
+-rwxr-xr-x 1 alirahman17 alirahman17 13864 Nov  5 19:28 a.out
+-rw-r--r-- 1 alirahman17 alirahman17    12 Sep 22 17:18 infile1.txt
+-rw-r--r-- 1 alirahman17 alirahman17   400 Nov  5 19:15 ls.out
+-rw-r--r-- 1 alirahman17 alirahman17     0 Nov  5 18:40 output.txt
+-rw-r--r-- 1 alirahman17 alirahman17  1764 Nov  5 12:48 probset3.c
+-rw-r--r-- 1 alirahman17 alirahman17  3303 Nov  5 19:27 shell.c
+total 32
+-rwxr-xr-x 1 alirahman17 alirahman17 13648 Nov  5 20:00 a.out
+-rw-r--r-- 1 alirahman17 alirahman17    12 Sep 22 17:18 infile1.txt
+-rw-r--r-- 1 alirahman17 alirahman17   800 Nov  5 19:28 ls.out
+-rw-r--r-- 1 alirahman17 alirahman17     0 Nov  5 18:40 output.txt
+-rw-r--r-- 1 alirahman17 alirahman17  1764 Nov  5 12:48 probset3.c
+-rw-r--r-- 1 alirahman17 alirahman17  3089 Nov  5 20:00 shell.c
