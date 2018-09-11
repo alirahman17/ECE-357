@@ -4,6 +4,11 @@
 #include <fcntl.h>
 #include <errno.h>
 
+/* Comments after Grading
+ Don't use perror, use strerror in fprintf instead
+ inputfiles is an unnecessary variable, just use argc and argv instead
+*/
+
 int c, err = 0;
 char *outFileName = NULL;
 char *bname = NULL;
@@ -12,6 +17,7 @@ int index = 0, inpind = 0, i = 0, iind = 0, standardinput = 0, n;
 
 int main(int argc, char **argv)
 {
+
   char *optarg;
   int optind;
   char inp;
@@ -46,7 +52,7 @@ int main(int argc, char **argv)
   if(index != 0){
     if(outFileName != NULL){
   	   fdo = open(outFileName, O_WRONLY|O_CREAT|O_TRUNC,0666);
-      	if(errno != 0){
+      	if(fdo < 0){
         	perror("Unable to open output file: ");
         	return(-1);
         }
@@ -63,9 +69,9 @@ int main(int argc, char **argv)
           	}
           }
   	for(iind = 0; iind < index; iind ++){
-    	errno = 0;
+    	//errno = 0;
     	fdi = open(inputFiles[iind], O_RDONLY);
-      if(errno != 0){
+      if(fdi < 0){
       	perror("Unable to open input file: ");
       	return(-1);
       }
@@ -97,7 +103,7 @@ int main(int argc, char **argv)
   else{
   	if(outFileName != NULL){
     	 fdo = open(outFileName, O_WRONLY|O_CREAT|O_TRUNC,0666);
-      	if(errno != 0){
+      	if(fdo < 0){
         	perror("Unable to open output file: ");
         	return(-1);
       	}
@@ -125,12 +131,12 @@ int main(int argc, char **argv)
     }
   }
   close(fdo);
-  	if(errno != 0){
+  	if(fdo < 0){
     	perror("Unable to close output file: ");
     	return(-1);
   	}
   close(fdi);
-  	if(errno != 0){
+  	if(fdi < 0){
     	perror("Unable to close input file: ");
     	return(-1);
   	}
